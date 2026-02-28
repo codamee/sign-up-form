@@ -1,19 +1,25 @@
-# Form_Design
+# Sign-up Form
 
-## 📄 Simple Hackathon Registration Form 
-* Hackathon Registration Form .This is a modern, responsive HTML form built for a practice hackathon registration page. It is a project focused entirely on using clean, modern **HTML** and **CSS** for advanced form styling.
-  
-###  [Live Demo](https://codamee.github.io/Form_Design/)
+A  landing page for a fictional Hackathon event. This project focuses on **Intermediate CSS Layouts**, custom-styled form elements, and native browser validation logic.
 
-## ✨Key Features:In-demand CSS coding techniques:
+<p>
+  <img src="./screenshot.png" alt="Sign-up Form Preview" width="500">
+</p>
 
-* **Split-Screen Design:** The page is split into two columns (Image side and Form side) using **CSS Flexbox**.
-* **Custom UI:** We stripped the browser's default look from radio buttons and checkboxes using `appearance: none;` and built our own custom, animated markers using **CSS Pseudo-elements (`::before`)**.
-* **Live Feedback:** Uses special CSS rules (`:user-valid` and `:user-invalid`) to change the border color to **green or red instantly** as the user types, giving immediate validation.
-* **Clean Layout:** Uses good HTML structure (`<fieldset>`, `<label>`, etc.) to make the form accessible and easy to manage.
+## 🚀 Live Demo
+[Try the Live Form Here](https://codamee.github.io/sign-up-form/)
 
+## 🎨 Key Features
+* **Modern Custom Select:** Implemented the cutting-edge `::picker(select)` and `popover` API for a fully custom, animated dropdown experience.
+* **Smart Validation:** Real-time feedback using `:user-valid` and `:user-invalid` pseudo-classes to highlight form errors instantly.
+* **Custom Form Controls:** Rebuilt standard checkboxes and radio buttons from scratch using `appearance: none` and CSS transitions for a unique brand identity.
+* **Split-Screen UI:** A balanced layout featuring a fixed hero sidebar with a background overlay and a scrollable form container.
 
-## This project is a great resource for learning modern front-end form styling.
+## 🛠️ Technical Skills
+* **Advanced CSS Transitions:** Leveraged `@starting-style` and opacity transitions to create smooth UI reveals for the custom picker.
+* **Form UX:** Strategic use of `:focus` states and custom outlines to improve user guidance and accessibility.
+* **Semantic HTML:** Proper use of `<fieldset>`, `<legend>`, and `<section>` to ensure input data is grouped logically and semantically.
+* **Responsive Units:** Utilized `vw` and `vh` units to ensure the two-column layout fills the viewport perfectly.
 
-* **Technology:** HTML5 and CSS3
-* **Goal:** Perfecting form UI and layout skills.
+---
+*Built as part of The Odin Project Intermediate HTML and CSS.*
