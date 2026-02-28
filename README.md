@@ -3,7 +3,7 @@
 A  landing page for a fictional Hackathon event. This project focuses on **Intermediate CSS Layouts**, custom-styled form elements, and native browser validation logic.
 
 <p>
-  <img src="./Assets/screenshot.png" alt="Sign-up Form Preview" width="500">
+  <img src="./Assets/screenshot.png" alt="Sign-up Form Preview" width="600">
 </p>
 
 ## 🚀 Live Demo
